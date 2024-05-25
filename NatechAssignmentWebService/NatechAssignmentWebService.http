@@ -1,0 +1,6 @@
+@NatechAssignmentWebService_HostAddress = http://localhost:5151
+
+GET {{NatechAssignmentWebService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
