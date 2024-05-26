@@ -1,6 +1,19 @@
-@NatechAssignmentWebService_HostAddress = http://localhost:5151
+@NatechAssignmentWebService_HostAddress = https://localhost:7169
 
-GET {{NatechAssignmentWebService_HostAddress}}/weatherforecast/
-Accept: application/json
+GET {{NatechAssignmentWebService_HostAddress}}/ipgeolocation?ipAddress=string
+
+###
+
+POST {{NatechAssignmentWebService_HostAddress}}/ipgeolocation
+Content-Type: application/json
+
+[
+  "1.1.1.1",
+  "8.8.8.8"
+]
+
+###
+
+GET {{NatechAssignmentWebService_HostAddress}}/ipgeolocation/GetLocationForListOfIpStatus/string
 
 ###

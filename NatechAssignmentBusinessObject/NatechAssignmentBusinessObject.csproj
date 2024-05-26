@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.15.2" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.12" />
+    <PackageReference Include="Ipbase" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NatechAssignmentCommon\NatechAssignmentCommon.csproj" />
+    <ProjectReference Include="..\NatechAssignmentDataLayer\NatechAssignmentDataLayer.csproj" />
+  </ItemGroup>
+
+</Project>
